@@ -38,14 +38,14 @@
           >
           <ul class="header-nav-list list">
             <li class="header-nav-item header-nav-item-studio">
-              <a
-                class="header-link link"
-                href="./index.html"
-                >Студия</a
-              >
+              <a class="header-link link" href="./index.html">Студия</a>
             </li>
             <li class="header-nav-item header-nav-item-portf">
-              <a class="header-link header-link-current link" href="./portfolio.html">Портфолио</a>
+              <a
+                class="header-link header-link-current link"
+                href="./portfolio.html"
+                >Портфолио</a
+              >
             </li>
             <li class="header-nav-item">
               <a class="header-link link" href="">Контакты</a>
@@ -57,12 +57,19 @@
             <a
               class="header-contacts-link link"
               href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            >
+              <svg class="header-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="header-contacts-item header-contacts-item-tel">
-            <a class="header-contacts-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="header-contacts-link link" href="tel:+380961111111">
+              <svg class="header-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -81,7 +88,9 @@
           <h1 class="main-title visually-hidden">Галерея образцов работ</h1>
           <ul class="portf-btn-list list">
             <li class="portf-btn-item">
-              <button class="portf-btn portf-btn-current btn" type="button">Все</button>
+              <button class="portf-btn portf-btn-current btn" type="button">
+                Все
+              </button>
             </li>
             <li class="portf-btn-item">
               <button class="portf-btn btn" type="button">Веб-сайты</button>
@@ -243,11 +252,11 @@
 
     <footer class="footer">
       <div class="container footer-container">
-        <a class="footer-logo logo link" href="./index.html" lang="en"
-          ><span class="blue-logo">Web</span
-          ><span class="white-logo">Studio</span></a
-        >
         <address class="footer-address">
+          <a class="footer-logo logo link" href="./index.html" lang="en"
+            ><span class="blue-logo">Web</span
+            ><span class="white-logo">Studio</span></a
+          >
           <p class="footer-address-kyiv">г. Киев, пр-т Леси Украинки, 26</p>
           <a class="footer-mail link" href="mailto:info@example.com"
             >info@example.com</a
@@ -256,6 +265,62 @@
             >+38 099 111 11 11</a
           >
         </address>
+        <div class="footer-right">
+          <p class="join">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="social-networks-firm-list list">
+            <li class="socials-firm-item">
+              <a
+                class="socials-firm-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ссылка на корпоративный Instagram"
+                ><svg class="icon-social-firm" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-firm-item">
+              <a
+                class="socials-firm-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ссылка на корпоративный Twitter"
+              >
+                <svg class="icon-social-firm" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-firm-item">
+              <a
+                class="socials-firm-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ссылка на корпоративный Facebook"
+              >
+                <svg class="icon-social-firm" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-firm-item">
+              <a
+                class="socials-firm-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ссылка на корпоративный LinkedIn"
+              >
+                <svg class="icon-social-firm" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
