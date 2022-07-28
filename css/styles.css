@@ -421,26 +421,21 @@ img {
   justify-content: center;
   gap: 30px;
 }
- 
 
- .logo-client-thumb {
-display: flex;
+.logo-client-thumb {
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
-} 
-
-
-
+}
 
 .logo-client {
   fill: #afb1b8;
 }
- /* .logo-client:hover {
+/* .logo-client:hover {
   fill: var(--blue-style-color); 
 } */
 .logo-client-thumb:hover {
@@ -455,8 +450,6 @@ display: flex;
 .logo-client-link:focus .logo-client {
   fill: var(--blue-style-color);
 }
-
-
 
 /* section clients styles end */
 
@@ -520,8 +513,6 @@ display: flex;
 .socials-firm-link:focus {
   background-color: var(--blue-style-color);
 }
-
-
 
 .footer-right {
   margin-left: 70px;
