@@ -422,12 +422,14 @@ img {
   gap: 30px;
 }
 
-.logo-client-thumb {
+.logo-client-link {
   display: flex;
+
   align-items: center;
   justify-content: center;
+
   width: 170px;
-  height: 90px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -435,10 +437,8 @@ img {
 .logo-client {
   fill: #afb1b8;
 }
-/* .logo-client:hover {
-  fill: var(--blue-style-color); 
-} */
-.logo-client-thumb:hover {
+
+.logo-client-link:hover {
   border: 1px solid var(--blue-style-color);
 }
 .logo-client-link:hover .logo-client {
@@ -560,11 +560,15 @@ img {
 .portf-item {
   flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
-.portf-thumb:hover {
+.portf-item-link {
+  display: block;
+}
+
+.portf-item-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portf-thumb:focus {
+.portf-item-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
